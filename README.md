@@ -5,15 +5,14 @@
 This 2-bit ALU (Arithmetic Logic Unit) is built using 74-series logic gates and multiplexers, and performs four basic operations: Logical AND, Logical OR, Addition, and positive-result Subtraction, on two 2-bit input words (A1A0 and B1B0). It uses a 2-bit opcode (I1I0) to select the operation, and displays the result as a 3-bit output (R2R1R0). Logical AND and OR operate only on the least significant bits (A0 and B0), with the result being displayed on R0. Arithmetic operations use the full words on input and output, and the output R2 is reserved for indicating overflow during addition.
 
 ## 2. Block Schematic
-
 <image src="block.png" width="600px"/>
 
 ## 3. Logical Schematic and Simulation
-Logisim Evolution was used for the prototyping of the circuit and for simulating its functionality.
+Logisim Evolution was used for the prototyping of the circuit and for simulating its functionality. (file provided in repository)
 <image src="logical.png" width="1000px"/>
 
 ## 4. Electrical Schematic
-The project’s schematic and PCB were designed in KiCAD.
+The project’s schematic and PCB were designed in KiCAD. (files provided in repository)
 <image src="schematic.png" width="1000px"/>
 
 ## 5. Operation
