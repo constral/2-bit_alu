@@ -1,6 +1,6 @@
 # 2-Bit Arithmetic Logic Unit with 4 Operations
 
-<image src="picture.jepg" width="800px"/>
+<image src="picture.jpeg" width="800px"/>
 
 ## 1. Description
 
