@@ -1,5 +1,7 @@
 # 2-Bit Arithmetic Logic Unit with 4 Operations
 
+<image src="picture.jepg" width="800px"/>
+
 ## 1. Description
 
 This 2-bit ALU (Arithmetic Logic Unit) is built using 74-series logic gates and multiplexers, and performs four basic operations: Logical AND, Logical OR, Addition, and positive-result Subtraction, on two 2-bit input words (A1A0 and B1B0). It uses a 2-bit opcode (I1I0) to select the operation, and displays the result as a 3-bit output (R2R1R0). Logical AND and OR operate only on the least significant bits (A0 and B0), with the result being displayed on R0. Arithmetic operations use the full words on input and output, and the output R2 is reserved for indicating overflow during addition.
