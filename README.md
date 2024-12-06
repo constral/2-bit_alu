@@ -1,6 +1,6 @@
 # 2-Bit Arithmetic Logic Unit with 4 Operations
 
-<image src="picture.jepg" width="800px"/>
+<image src="picture.jpeg" width="800px"/>
 
 ## 1. Description
 
@@ -13,9 +13,10 @@ This 2-bit ALU (Arithmetic Logic Unit) is built using 74-series logic gates and 
 Logisim Evolution was used for the prototyping of the circuit and for simulating its functionality. (file provided in repository)
 <image src="logical.png" width="1000px"/>
 
-## 4. Electrical Schematic
+## 4. Electrical Schematic and PCB
 The project’s schematic and PCB were designed in KiCAD. (files provided in repository)
 <image src="schematic.png" width="1000px"/>
+<image src="pcb.png" width="800px"/>
 
 ## 5. Operation
 The ALU takes two 2-bit words (A1A0 and B1B0) as input for its operations, and one 2-bit word (I1I0) for selecting the opcode. The results of the operations are displayed using LEDs in the form of a 3-bit word (R2R1R0). The operations and their opcodes are as follows:
